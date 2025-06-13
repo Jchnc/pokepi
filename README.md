@@ -15,7 +15,7 @@ A simple Next.js app to explore Pokémon using the PokéAPI. Built with Tailwind
 ### 1. Clone the repository
 
 ```bash
-git clone
+git clone https://github.com/Jchnc/pokepi.git
 cd pokepi
 ```
 
