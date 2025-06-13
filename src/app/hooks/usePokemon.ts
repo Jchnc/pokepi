@@ -24,6 +24,7 @@ export function usePokemon() {
     try {
       const data = await pokemonApi.getPokemon(query);
       setPokemon(data);
+      setError(null);
     } catch (err) {
       setError((err as Error).message);
       setPokemon(null);
@@ -41,6 +42,7 @@ export function usePokemon() {
     try {
       const data = await pokemonApi.getRandomPokemon();
       setPokemon(data);
+      setError(null);
     } catch (err) {
       setError((err as Error).message);
       setPokemon(null);
